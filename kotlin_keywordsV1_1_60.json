@@ -1,7 +1,7 @@
 { "cards":
 [
     {
-        "front": "Tokens that are always interpreted as keywords and cannot be used as identifers",
+        "front": "Tokens that are always interpreted as keywords\n and cannot be used as identifers",
         "back": "Hard Keywords (HK)"
     },
     {
@@ -17,7 +17,7 @@
         "back": "break"
     },
     {
-        "front": "Declares a general purpose object that is the building blocks of programs. They have constructors, inheritance. (HK)",
+        "front": "Declares a general purpose object that is the building\n blocks of programs. They have constructors, inheritance. (HK)",
         "back": "class"
     },
     {
@@ -29,7 +29,7 @@
         "back": "do"
     },
     {
-        "front": "Defines the branch of an if expression which is executed then the condition is false. (HK)",
+        "front": "Defines the branch of an if expression which is executed\n then the condition is false. (HK)",
         "back": "else"
     },
     {
@@ -201,7 +201,7 @@
         "back": "Modifier Keywords (MK)"
     },
     {
-        "front": "Denotes a platform-specific implementation in multiplatform projects. (MK)",
+        "front": "Denotes a platform-specific implementation in\n multiplatform projects. (MK)",
         "back": "actual"
     },
     {
