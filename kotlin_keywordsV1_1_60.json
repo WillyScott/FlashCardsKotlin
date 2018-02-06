@@ -1,7 +1,7 @@
 { "cards":
 [
     {
-        "front": "Tokens that are always interpreted as keywords\n and cannot be used as identifers",
+        "front": "Tokens that are always interpreted as keywords and cannot be used as identifers",
         "back": "Hard Keywords (HK)"
     },
     {
@@ -17,7 +17,7 @@
         "back": "break"
     },
     {
-        "front": "Declares a general purpose object that is the building\n blocks of programs. They have constructors, inheritance. (HK)",
+        "front": "Declares a general purpose object that is the building blocks of programs. They have constructors, inheritance. (HK)",
         "back": "class"
     },
     {
@@ -29,7 +29,7 @@
         "back": "do"
     },
     {
-        "front": "Defines the branch of an if expression which is executed\n then the condition is false. (HK)",
+        "front": "Defines the branch of an if expression which is executed then the condition is false. (HK)",
         "back": "else"
     },
     {
@@ -49,11 +49,11 @@
         "back": "if"
     },
     {
-        "front": "- Specifies the object being iterated in a for loop.\n- Is used as a infix operator to check that a value\n   belongs to a range, a collection or another entity\n   that defines the 'contains' method.\n- Is used in when expression for the same purpose.\n- Marks a type parameter as contravariant. (HK)",
+        "front": "- Specifies the object being iterated in a for loop.\n- Is used as a infix operator to check that a value belongs to a range, a collection or another entity that defines the 'contains' method.\n- Is used in when expression for the same purpose.\n- Marks a type parameter as contravariant. (HK)",
         "back": "in"
     },
     {
-        "front": "- Is used as an operator to check that a value does not belong\n  to a range, a collection or another entity that defines the\n  'contains' method.\n- Is used in when expression for the same purpose (HK)",
+        "front": "- Is used as an operator to check that a value does not belong to a range, a collection or another entity that defines the 'contains' method.\n- Is used in when expression for the same purpose (HK)",
         "back": "!in"
     },
     {
@@ -69,7 +69,7 @@
         "back": " !is"
     },
     {
-        "front": "Constant representing an object reference that doesnt point to any\nobject. (HK)",
+        "front": "Constant representing an object reference that doesnt point to any object. (HK)",
         "back": "null"
     },
     {
@@ -85,11 +85,11 @@
         "back": "return"
     },
     {
-        "front": "- Refers to the superclass implementation fo a method or\n  property\n- Calls the superclass constructor from a secondary\n  constructor. (HK)",
+        "front": "- Refers to the superclass implementation fo a method or property\n- Calls the superclass constructor from a secondary constructor. (HK)",
         "back": "super"
     },
     {
-        "front": "- Refers to the current receiver.\n- Calls another constructor of the same class from a secondary\n  constructor. (HK)",
+        "front": "- Refers to the current receiver.\n- Calls another constructor of the same class from a secondary constructor. (HK)",
         "back": "this"
     },
     {
@@ -125,11 +125,11 @@
         "back": "while"
     },
     {
-        "front": "Tokens that act as keywords in the context when they are\n applicable and can be used as identifiers in other context.",
+        "front": "Tokens that act as keywords in the context when they are applicable and can be used as identifiers in other context.",
         "back": "Soft Keywords (SK)"
     },
     {
-        "front": "- Delegates the implementation of an interface to another object.\n- Delegates the implementation of accessors for a property to\n  another object. (SK)",
+        "front": "- Delegates the implementation of an interface to another object.\n- Delegates the implementation of accessors for a property to another object. (SK)",
         "back": "by"
     },
     {
@@ -141,7 +141,7 @@
         "back": "constructor"
     },
     {
-        "front": "- the field storing the delegate instance for\n  a delegated property\n- Used as an annotation use-site target",
+        "front": "- the field storing the delegate instance for a delegated property\n- Used as an annotation use-site target",
         "back": "delegate"
     },
     {
@@ -149,7 +149,7 @@
         "back": "dynamic"
     },
     {
-        "front": "- annotate Java field(variable)\n- Used as an annotation use-site target\n- Annotations are means of attaching\n  metadata to code. (SK)",
+        "front": "- annotate Java field(variable)\n- Used as an annotation use-site target\n- Annotations are means of attaching metadata to code. (SK)",
         "back": "field"
     },
     {
@@ -157,7 +157,7 @@
         "back": "file"
     },
     {
-        "front": "Begins a block that is always executed when a try\n block exits. (SK)",
+        "front": "Begins a block that is always executed when a try block exits. (SK)",
         "back": "finally"
     },
     {
@@ -165,7 +165,7 @@
         "back": "get"
     },
     {
-        "front": "Imports a declaration from another package into the current\nfile. (SK)",
+        "front": "Imports a declaration from another package into the current file. (SK)",
         "back": "import"
     },
     {
@@ -181,11 +181,11 @@
         "back": "property"
     },
     {
-        "front": "- Used to annote receiver parameter of an extension\n  function or property.\n- Used as an annotation use-site target. (SK)",
+        "front": "- Used to annote receiver parameter of an extension function or property.\n- Used as an annotation use-site target. (SK)",
         "back": "receiver"
     },
     {
-        "front": "Declares teh setter of a property.\nUsed as an annontation use-site target. (SK)",
+        "front": "Declares the setter of a property.Used as an annontation use-site target. (SK)",
         "back": "set"
     },
     {
@@ -197,11 +197,11 @@
         "back": "where"
     },
     {
-        "front": "Tokens that act as keywords in modifier lists of\n declarations and can bee used as identifiers\n in other contexts. (SK)",
+        "front": "Tokens that act as keywords in modifier lists of declarations and can bee used as identifiers in other contexts. (SK)",
         "back": "Modifier Keywords (MK)"
     },
     {
-        "front": "Denotes a platform-specific implementation in\n multiplatform projects. (MK)",
+        "front": "Denotes a platform-specific implementation in multiplatform projects. (MK)",
         "back": "actual"
     },
     {
@@ -221,7 +221,7 @@
         "back": "const"
     },
     {
-        "front": "Forbids non-local returns in a lambda passed\n to an inline function. (MK)",
+        "front": "Forbids non-local returns in a lambda passed to an inline function. (MK)",
         "back": "crossinline"
     },
     {
@@ -233,11 +233,11 @@
         "back": "enum"
     },
     {
-        "front": "Marks a declaration as platform-specific, expecting\n an implementation in platform modules.  (MK)",
+        "front": "Marks a declaration as platform-specific, expecting an implementation in platform modules.  (MK)",
         "back": "expect"
     },
     {
-        "front": "Marks a declaration as implemented not in Kotlin\n (accessible through JNI or in JavaScript).  (MK)",
+        "front": "Marks a declaration as implemented not in Kotlin (accessible through JNI or in JavaScript).  (MK)",
         "back": "external"
     },
     {
@@ -249,11 +249,11 @@
         "back": "infix"
     },
     {
-        "front": "Tells the compiler to inline the function and the\n lambdas passed to it at the call site.  (MK)",
+        "front": "Tells the compiler to inline the function and the lambdas passed to it at the call site.  (MK)",
         "back": "inline"
     },
     {
-        "front": "Allows referring to the outer class instance from\n a nested class.  (MK)",
+        "front": "Allows referring to the outer class instance from a nested class.  (MK)",
         "back": "inner"
     },
     {
@@ -261,7 +261,7 @@
         "back": "internal"
     },
     {
-        "front": "Allows initializing a non-null property outside\n of a constructor.  (MK)",
+        "front": "Allows initializing a non-null property outside of a constructor.  (MK)",
         "back": "lateinit"
     },
     {
@@ -269,7 +269,7 @@
         "back": "noinline"
     },
     {
-        "front": "Allows subclassing a class or overriding\n a member.  (MK)",
+        "front": "Allows subclassing a class or overriding a member.  (MK)",
         "back": "open"
     },
     {
@@ -281,7 +281,7 @@
         "back": "out"
     },
     {
-        "front": "Marks a member as an override of a\n superclass member.  (MK)",
+        "front": "Marks a member as an override of a superclass member.  (MK)",
         "back": "override"
     },
     {
@@ -289,7 +289,7 @@
         "back": "private"
     },
     {
-        "front": "Marks a declaration as visible in the current\n class and its subclasses.  (MK)",
+        "front": "Marks a declaration as visible in the current class and its subclasses.  (MK)",
         "back": "protected"
     },
     {
@@ -297,11 +297,11 @@
         "back": "public"
     },
     {
-        "front": "Marks a type parameter of an inline function as\n accessible at runtime.  (MK)",
+        "front": "Marks a type parameter of an inline function as accessible at runtime.  (MK)",
         "back": "reified"
     },
     {
-        "front": "Declares a sealed class (a class with\n restricted subclassing).  (MK)",
+        "front": "Declares a sealed class (a class with restricted subclassing).  (MK)",
         "back": "sealed"
     },
     {
@@ -309,19 +309,19 @@
         "back": "suspend"
     },
     {
-        "front": "Marks a function as tail-recursive (allowing the\n compiler to replace recursion with iteration).  (MK)",
+        "front": "Marks a function as tail-recursive (allowing the compiler to replace recursion with iteration).  (MK)",
         "back": "tailrec"
     },
     {
-        "front": "Allows passing a variable number of arguments\n for a parameter.  (MK)",
+        "front": "Allows passing a variable number of arguments for a parameter.  (MK)",
         "back": "vararg"
     },
     {
-        "front": "Identifiers that are defined by the compiler in specific \ncontexts and can be used ar regular identifiers in\n other contexts. (SI)",
+        "front": "Identifiers that are defined by the compiler in specific contexts and can be used ar regular identifiers in other contexts. (SI)",
         "back": "Special identifiers (SI)"
     },
     {
-        "front": "Used inside a property accessor to refer to the \nbacking field of the property. (SI)",
+        "front": "Used inside a property accessor to refer to the backing field of the property. (SI)",
         "back": "field"
     },
     {
@@ -333,7 +333,7 @@
         "back": "Operators and Special Symbols (OSS)"
     },
     {
-        "front": "Mathematical operators (OSS)\n* is also used to pass an array to a vararg parameter\n",
+        "front": "Mathematical operators (OSS)",
         "back": "\"+,-,*,/,%\"  (* is also used to pass an array to a vararg\nparameter)"
     },
     {
@@ -349,11 +349,11 @@
         "back": "\"++, --\""
     },
     {
-        "front": "Logical 'and', 'or', 'not' operators (for bitwise\n operations, use corresponding infix functions). (OSS)",
+        "front": "Logical 'and', 'or', 'not' operators (for bitwise operations, use corresponding infix functions). (OSS)",
         "back": "&&, ||, !"
     },
     {
-        "front": "Equality operators (translated to calls\n of equals() for non-primitive types) (OSS)",
+        "front": "Equality operators (translated to calls of equals() for non-primitive types) (OSS)",
         "back": "\"==, !=\""
     },
     {
@@ -373,11 +373,11 @@
         "back": "!!"
     },
     {
-        "front": "Performs a safe call (calls a method\n or accesses a property if the receiver is non-null) (OSS)",
+        "front": "Performs a safe call (calls a method or accesses a property if the receiver is non-null) (OSS)",
         "back": "?."
     },
     {
-        "front": "Takes the right-hand value if the\n left-hand value is null (the elvis operator ) (OSS)",
+        "front": "Takes the right-hand value if the left-hand value is null (the elvis operator ) (OSS)",
         "back": "?:"
     },
     {
@@ -413,7 +413,7 @@
         "back": "$"
     },
     {
-        "front": "- substitutes an unused parameter in a lambda\n  expression\n- substitutes an unused parameter in a\n  destructuring declaration (OSS)",
+        "front": "- substitutes an unused parameter in a lambda expression\n- substitutes an unused parameter in a destructuring declaration (OSS)",
         "back": "_"
     }
 ]
